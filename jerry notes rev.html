@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<head><!-- <head> element contains info not viewable on the page -->
+  <title>Jerry's notes</title>
+  
+  <link rel="stylesheet" type="text/css" href="style.css"> <!-- link to CSS -->
+</head> 
+<body> 
+    <div class="banner"> 
+      <img src="http://i475.photobucket.com/albums/rr116/kellybeadle/university-of-michigan_logo.jpg" alt="Go Blue"/> <!-- banner image -->
+    </div> 
+      <h1>Introduction to Programming Notes</h1> 
+       <h2>Table of Contents</h2> 
+  <div class="module"> 
+      <div class="sub"> 
+          <a href="#concept1"> 
+          <h3>Stage 1 Concept 1: <br> Basics of the Web and HTML</h3>
+          </a> 
+      </div> 
+      <div class="sub"> 
+          <a href="#concept2"> 
+          <h3>Stage 1 Concept 2: <br> Webpages, Documents and Structure</h3>
+          </a> 
+      </div> 
+      <div class="sub"> 
+          <a href="#concept3"> 
+          <h3>Stage 1 Concept 3: <br> Adding Style with CSS</h3>
+          </a> 
+      </div>
+      <div class="sub">
+          <a href="#concept4">
+          <h3>Stage 2 Concept 1: <br> Introduction to Serious Programming</h3>
+          </a>
+      </div>
+      <div class="sub">
+          <a href="#concept5">
+          <h3>Stage 2 Concept 2: <br> Variables and Strings</h3>
+          </a>
+      </div>
+      <div class="sub">
+          <a href="#concept6">
+          <h3>Stage 2 Concept 3: <br> Input -> Function -> Output</h3>
+          </a>
+      </div>
+      <div class="sub">
+          <a href="#concept7">
+          <h3>Stage 2 Concept 4: <br> If and While</h3>
+          </a>
+      </div>
+      <div class="sub">
+          <a href="#concept8">
+          <h3>Stage 2 Concept 5: <br> Lists and For Loops</h3>
+          </a>
+      </div>
+  </div> 
+  
+  <div class="stage"> 
+      <a id="concept1"></a> 
+      
+        <h2>Stage 1 Concept 1: Basics of the Web and HTML</h2>
+    <div class="concept"> 
+        <div class="concept-title"><h3>World Wide Web</h3></div>
+        <div class="concept-description">
+          <p> The World Wide Web is a collection of HTML documents. HTML stands for Hyper Text Markup Language. The Web has been around since the 1990s and has 30 billion pages. HTML represents a majority of the documents on the Web. Other documents or files found on the web include Microsoft Word, PDF, plain text, images, videos and music.
+          </p>
+        </div> 
+    </div>
+    <div class="concept"> 
+        <div class="concept-title"><h3>Major Pieces</h3></div>
+        <div class="concept-description"> 
+          <p>
+          Components of the web include: HTTP, Servers, Internet and Browser.  For a detailed explanation of the web components, go to <a href="http://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48329854/m-48299873">the Video</a>. HTTP – the main protocol of the web. Servers – computers that host the files that make up the web.  Internet – the world’s largest computer network. Browser – a program that runs on your computer to display files found on the web.
+          </p> 
+        </div> 
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>HTML</h3></div>
+        <div class="concept-description"> 
+            <p>
+              Hyper Text Markup Language documents makes up most of the documents you see on the web.  HTML 
+              is made up of: text content (what you see), markup (what it looks like), reference to other documents 
+              (images, videos, etc.), and links to other pages.
+
+            </p>
+        </div> 
+          
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>HTML Markup</h3></div>
+        <div class="concept-description"> 
+            <p>
+              Tag: an HTML tag is always contained within angled brackets.  Most tags have an opening tag and a closing tag.  Some tags do not require a closing tag. Element: an HTML element refers to everything within a set of opening and closing tags.
+            </p>
+        </div>  
+         
+    </div>
+    <div class="concept">
+        <div class="concept-title"><h3>Computers Are Stupid</h3></div>
+        <div class="concept-description">
+            <p>
+              Programmers need to write code exactly the way a computer understands (write in correct syntax).
+            </p>
+
+        </div> 
+          
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>HTML Attributes</h3></div>
+        <div class="concept-description"> 
+            <p>
+            Attribute: this is a property of an HTML element.  For a detailed explanation of attributes go to
+            <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48508417/m-48723411">the Video</a>.
+            </p>
+
+        </div>
+          
+    </div> 
+    <div class="concept">
+        <div class="concept-title"><h3>Images</h3></div>
+        <div class="concept-description"> 
+            <p>
+              Images are void tags which means there is no content and does not need a closing tag.  For a detailed explanation of images go to <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/m-48744041">the Video</a>.
+            </p>
+        </div>  
+          
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Whitespace</h3></div>
+        <div class="concept-description"> 
+            <p>
+            
+                To get text on multiple lines, you can use void tags and closing tags.  For a detailed explanation of line break tabs, go to <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48666064/m-48678767">the Video</a>.
+
+            </p>
+        </div>
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Span and Div</h3></div>
+        <div class="concpet-description"> 
+            <p>
+                Blocks make an invisible box around what you're
+                doing that can be edited and reviewed as a whole. Inline makes just an alteration inside an already existing block. <a href="https://www.udacity.com/course/viewer/#!/c-nd000/l-3873828673/e-48756004/m-48605783">See Video</a> on inline and block elements.
+
+            </p>
+
+        </div> 
+      
+    </div> 
+  </div> 
+  <div class="stage"> 
+      <a id="concept2"></a> 
+            <h2>Stage 1 Concept 2: Webpages, Documents and Structure</h2>
+    <div class="concept"> 
+        <div class="concept-title"><h3>Tree Structure</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  Tree like structure consists of sideways trianges with open and close tags, span and elements.  You can click on the elements to get font and border size information.
+                </p>
+          </div>  
+              
+    </div> 
+            
+    <div class="concept"> 
+        <div class="concept-title"><h3>HTML/CSS/DOM</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  HTML is the language of the web and has syntax and rules.  HTML is writted in a document. CSS is the style that lets you use syntax and rules to change how elements look on the page (font, color, background, borders, position). Boxes are defined wih div tags.
+
+                </p>
+        </div> 
+    </div> 
+  </div> 
+        
+  <div class="stage"> 
+      <a id="concept3"></a> 
+            <h2>Stage 1 Concept 3: Adding Style with CSS</h2>
+    <div class="concept"> 
+        <div class="concept-title"><h3>CSS</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  CSS stands for cascading style sheets. These style sheets are what is used to determining how a page looks on the internet. You can control virtually every aspect of a page if you know the correct CSS to use. Think of it as the decorations or the style of your house.
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Avoiding Repitition</h3></div>
+        <div class="concept-description"> 
+                <p>
+                Consistency is another very good reason to avoid repetition when writing HTML code. If you want to give a document or a series of documents the same feel, then they must be coded the same. This is best done by assigning specific "classes" to each part of the document. By having different "classes" for each part of the document, you only have to change the class file in your CSS to make changes throughout the entire document.
+                </p>
+        </div> 
+              
+    </div> 
+  </div>  
+  <div class="stage"> 
+      <a id="concept4"></a> 
+            <h2>Stage 2 Concept 1: Introduction to Serious Programming</h2>
+    <div class="concept"> 
+        <div class="concept-title"><h3>Computer</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  A computer is a machine that can be programmed.  Computers can only do what a program tells them to do. A program tells the computer what to do in a precise sequence of steps. 
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Computer Program and Computer Science</h3></div>
+        <div class="concept-description"> 
+                <p>
+                A computer program is a sequence of instructions written to perform a specific task with a computer.  Computer science deals with the theoretical foundations of information and computation, together with practical techniques for the implementation and application of these foundations.  Programming is the core of computer science.
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Web Page and Web Browser</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  A web page is really just a chunk of text that comes from the Internet into your Web browser. A web page is a web document that is suitable for a web browser.  The web browser is the software program that accesses the web document and follows links to find pages in the document and displays the contents on the user's computer.  The web browser becomes the editor for coding using programming languages such as Python. You can run Python in the web browser. 
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Python</h3></div>
+        <div class="concept-description"> 
+                <p>
+                Python is called an interpreter.  It runs out programs, it interprets them, executes the programs that we wrote in Python language by running a program in a language into the computer can understand directly.  Procedural thinking is to follow the instructions in your code.  An example of Abstract thinking is seeing a Python program, Python interpreter, and a web browser as different versions of the same thing (a computer program).
+                </p>
+                <p>If you try to use code that is not in the Python dictionary it will return a syntax error. Python has a grammar to define what strings are in the language. It is stricter than the English language or other natural languages. With Python the code needs to match the Python grammar exactly.</p>
+        </div> 
+              
+    </div>
+  </div>  
+  <div class="stage"> 
+      <a id="concept5"></a> 
+            <h2>Stage 2 Concept 2: Variables and Strings</h2>
+    <div class="concept"> 
+        <div class="concept-title"><h3>Variables in Python</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  Variables give programmers a way to give <em>names</em> to <em>values.</em> If <span class="code">jd_variable</span> is a variable with a value of  <span class="code">5</span>, then the following code would print out  <span class="code">10</span>:
+                </p>
+                <p>
+                  <span class="code">print jd_variable + jd_variable</span>
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Assigning a value to a variable</h3></div>
+        <div class="concept-description"> 
+                <p>
+                We can assign the value <span class="code">5</span> to the variable <span class="code">jd_variable</span> by writing code like this:
+                </p>
+                <p>
+                  <span class="code">jd_variable = 5</span>
+                </p>
+                <p>
+                We can even change the value of a variable by re-assigning it to a different value later.
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Using the equal sign in Python</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  In the line <span class="code">5 + 3 = 8</span>, the equals sign means "is the same as".
+                  </p>
+                    <p>
+                      In the line <span class="code">jd_variable = 5</span>, the equals sign means "takes the value of". 
+                    </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Benefits of using variables</h3></div>
+        <div class="concept-description"> 
+                <p>
+                Variables can be useful to programmers in many ways:
+                </p>
+                  <p>
+                    They improve code readability by using names that make sense to humans.</p>
+                      <p>They give us a way to store the value of important data.</p>
+                      <p>They give us a way to change the value of something (like in the line <span class="code">days = days-1</span>
+                      </p>
+        </div> 
+              
+    </div>
+    <div class="concept"> 
+        <div class="concept-title"><h3>Numbers <em>versus</em> Strings</h3></div>
+        <div class="concept-description"> 
+                  <p>
+                    In Python, <span class="code">5</span> is a number while <span class="code">"5"</span> is a string.
+                  </p>
+                  <p>
+                    The code <span class="code">5 + 5</span> would give <span class="code">10</span>.
+                  </p>
+                  <p>
+                  The code <span class="code">"5" + "5"</span> would give <span class="code">"55"</span>.
+                  </p>
+        </div> 
+              
+    </div>
+  </div> 
+  <div class="stage"> 
+      <a id="concept6"></a> 
+            <h2>Stage 2 Concept 3:  Input -> Function -> Output</h2>
+    <div class="concept"> 
+        <div class="concept-title"><h3>Functions</h3></div>
+        <div class="concept-description"> 
+                <p>
+                   A function is something that takes input, does something to that input, and then produces output. For example, a function named <span class="code">sum3</span> might take 3 numbers as input and produce the sum of those numbers as output. 
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Making versus using a function</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  Functions are made by starting a line of code with the keyword <span class="code">def</span> and then giving a function name followed by the function <b>parameters</b> in parentheses. These parameters will eventually be replaced by actual values when the function is used (called).
+                </p>
+                <p>
+                  In the "body" of the function, we write the code that specifies what to  do with the input parameters. For example the following code could be the definition of a function called <span class="code">sum3</span>:
+                </p>  
+                <div class="code-block"> <p> def sum3(a,b,c): <br>
+                      <span class="indent">answer = a+b+c</span> <br>
+                      <span class="indent">return answer</span>
+                 </p>
+                </div>
+                <p>
+                  To use a function, we write the name of the function followed by the value(s)    we want to give it in parentheses. Like this:
+                </p>  
+                    <div class="code-block">
+                <p>    print sum3(1,2,3) <br>
+                    >>>6
+                </p>  
+                    </div> 
+              
+        </div>
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Functions help avoid repetition</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  Functions are tools that programmers can create and reuse forever! Once you've defined a function once, you never have to define it again. 
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Not using the return statement</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  The <span class="code">return</span> keyword tells Python exactly what the function should produce as output. If a function doesn't have a <span class="code">return</span> statement, then you'll get behavior like this:
+                </p>  
+                    <div class="code-block">
+                    <p>  def add_ten(x): <br>
+                      <span class="indent">answer = x + 10</span> <br>
+                      <br>
+                      new_number = add_ten(7)<br>
+                      print new_number<br>
+                      >>>None
+                    </p>    
+                    </div>
+        </div>    
+    </div> 
+              
+  </div>
+  <div class="stage"> 
+      <a id="concept7"></a> 
+            <h2>Stage 2 Concept 4:  If and While</h2>
+    <div class="concept"> 
+        <div class="concept-title"><h3>Comparisons to Make Decisions</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  Python uses comparisons to make decisons.  These expressions include:
+                </p>  
+                  <div class="code-block">
+                <p> equality to show copmarison (==) <br>
+                  equal to show assignment (=) <br>
+                  greater than or less than (> or &lt;)  <br>
+                  not equal to show comparison (!=)
+                </p>  
+                  </div>  
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>If function</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  If Statements control which code gets executed when. If statements are used to define procedures.  The test expression is evaluated and the Block will run if the test expression is true.  The block does not run if the test expression is false.  Statements inside the block are ran only if the test expression is true. The next statement that is not indented will be executed whether or not the test expression is true.
+                </p>
+                <p>
+                <div class="code-block"> <p> If x&lt;0: <br>
+                <span class="indent">x = -x</span> </p>
+                </div>
+                 
+                             
+        </div>
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>While Loops</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  While loops make code perfrom the same task many times. If statments perform 0 or 1 times where as While loops perform until the expression is False. 
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Break Statement</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  The break command allows you to get out of the While loop to move on to the next step.  is usedful when a loop goes on continuously and needs to stop.  You can add Break in an If statement within the While loop to makde sure the While loop does not go on for ever. 
+                    
+                </p>
+        </div>    
+    </div> 
+              
+  </div>
+    <div class="stage"> 
+      <a id="concept8"></a> 
+            <h2>Stage 2 Concept 5:  Lists and For Loops</h2>
+    <div class="concept"> 
+        <div class="concept-title"><h3>Structured Data</h3></div>
+        <div class="concept-description"> 
+                <p>
+                   You can structure data using strings or list.  Strings is a sequence of characters identified with  <span class="code">'jerry!'</span> where a List is a sequence of anything inside a bracket <span class="code">[0, 1, 2, 3, 4, 5] </span>.
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Nested Lists</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  <span class="code">Nested Lists</span> is a list of lists that can include strings and numbers.  Nested lists are used to help automated HTML coding.
+                </p>
+                              
+        </div>
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Mutation</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  Mutation is being able to change the value of a list after it has been created. You can use the + sign to concatenate a strings.  With lists, you can change a specific element in the list.  
+                </p>
+        </div> 
+              
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>List Operations</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  <span class="code">Append</span> is used to mutate a list. You can append a list inside our outside a procedure.
+                </p>  
+                  <div class="code-block"> <p>
+                  p = [1, 2] <br>
+                  q = [3, 4] <br>
+                  p.append(q) <br>
+                  p = [1, 2, [3, 4]] </p>
+                  </div>
+                
+                <p>  
+                  <span class="code">+</span> is used to concatenate a list. <span class="code">Ex. [0,1] + [2,3] -> [0,1,2,3].</span>
+                    
+                </p>
+                <p>  
+                  <span class="code">Len</span> is used to find the length of any object that is a collection of things (strings, lists). <span class="code">ex. len([0,1]) >>> 2</span>
+                    
+                </p>
+        </div>    
+    </div> 
+    <div class="concept"> 
+        <div class="concept-title"><h3>Loops on Lists</h3></div>
+        <div class="concept-description"> 
+                <p>
+                  <span class="code">For loops</span> assign elements to a name and go through the block.  For loops are used when defining procedures. Examples were used to sum up a list and multiple a list of elements by each other.  <span class="code">While loops</span> perform the same task until the expression is False. 
+                </p>
+        </div> 
+              
+    </div>          
+  </div>           
+</body>
